@@ -1,13 +1,13 @@
 import styled from '@emotion/styled';
 
 const Label = styled.h1`
-    margin-bttom: 32px;
+  margin-bttom: 32px;
 `;
 
 interface Props {
-    readonly title: string;
+  readonly title: string;
 }
 
 export const Title = ({ title }: Props) => {
-    return <Label>{title}</Label>;
+  return <Label>{title}</Label>;
 };

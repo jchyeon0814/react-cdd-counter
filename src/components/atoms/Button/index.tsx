@@ -19,8 +19,8 @@ const Container = styled.button`
 `;
 
 interface Props {
-    readonly label: string;
-    readonly onClick?: () => void;
+  readonly label: string;
+  readonly onClick?: () => void;
 }
 
 // export const Button = (props: Props) => {
@@ -28,6 +28,5 @@ interface Props {
 // };
 
 export const Button = ({ label, onClick }: Props) => {
-    return <Container onClick={onClick}>{label}</Container>;
+  return <Container onClick={onClick}>{label}</Container>;
 };
-
